@@ -1,3 +1,4 @@
+while true do wait(0.5)
 local lplr = game:GetService("Players").LocalPlayer
 lplr.Character:FindFirstChild("Nametag",true):Destroy()
 for i, v2 in pairs(lplr.Character:GetDescendants()) do
@@ -7,4 +8,5 @@ for i, v2 in pairs(lplr.Character:GetDescendants()) do
             v:Remove()
         end
     end
+end
 end
