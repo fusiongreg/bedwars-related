@@ -1,6 +1,5 @@
---Will crash on free expoits remove the 1st line and the last line if this happends
+--use everytime u respawn might work if u loop it
 
-while true do wait(0.5)
 local lplr = game:GetService("Players").LocalPlayer
 lplr.Character:FindFirstChild("Nametag",true):Destroy()
 for i, v2 in pairs(lplr.Character:GetDescendants()) do
@@ -11,4 +10,4 @@ for i, v2 in pairs(lplr.Character:GetDescendants()) do
         end
     end
 end
-end
+
