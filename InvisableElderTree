@@ -1,0 +1,10 @@
+local lplr = game:GetService("Players").LocalPlayer
+lplr.Character:FindFirstChild("Nametag",true):Destroy()
+for i, v2 in pairs(lplr.Character:GetDescendants()) do
+    if v2:IsA("Accessory") then
+        local v = v2:FindFirstChild("Handle")
+        if v then
+            v:Remove()
+        end
+    end
+end
