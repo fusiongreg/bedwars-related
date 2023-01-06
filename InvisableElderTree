@@ -1,3 +1,5 @@
+--Will crash on free expoits remove the 1st line and the last line if this happends
+
 while true do wait(0.5)
 local lplr = game:GetService("Players").LocalPlayer
 lplr.Character:FindFirstChild("Nametag",true):Destroy()
